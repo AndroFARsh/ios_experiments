@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD582D6E2D2DC23700D6D0D2 /* AppNanCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD582D6D2D2DC23700D6D0D2 /* AppNanCoordinatorView.swift */; };
+		DD582D702D2DC27000D6D0D2 /* AppNanCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD582D6F2D2DC27000D6D0D2 /* AppNanCoordinator.swift */; };
+		DD582D732D2DD8B500D6D0D2 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD582D722D2DD8B500D6D0D2 /* Async.swift */; };
+		DD582D752D2E1B2D00D6D0D2 /*  LoadingContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD582D742D2E1B2D00D6D0D2 /*  LoadingContent.swift */; };
+		DDFF8D162D2CC9C600B42B7C /* iOSAuthHandelingSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D132D2CC9C600B42B7C /* iOSAuthHandelingSwiftUIApp.swift */; };
+		DDFF8D172D2CC9C600B42B7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFF8D0F2D2CC9C600B42B7C /* Preview Assets.xcassets */; };
+		DDFF8D182D2CC9C600B42B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFF8D112D2CC9C600B42B7C /* Assets.xcassets */; };
+		DDFF8D1C2D2CCA3300B42B7C /* EmailField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D1B2D2CCA3300B42B7C /* EmailField.swift */; };
+		DDFF8D212D2CCB6300B42B7C /* DefaultTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D202D2CCB6300B42B7C /* DefaultTextFieldStyle.swift */; };
+		DDFF8D232D2CCDEB00B42B7C /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D222D2CCDEB00B42B7C /* PasswordField.swift */; };
+		DDFF8D262D2CCE8F00B42B7C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D252D2CCE8F00B42B7C /* LoginView.swift */; };
+		DDFF8D292D2CCFC600B42B7C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D272D2CCFC600B42B7C /* RegisterView.swift */; };
+		DDFF8D2C2D2CD08500B42B7C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D2A2D2CD08500B42B7C /* HomeView.swift */; };
+		DDFF8D2E2D2DA2FD00B42B7C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D2D2D2DA2FD00B42B7C /* LoginViewModel.swift */; };
+		DDFF8D302D2DA6B200B42B7C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D2F2D2DA6B200B42B7C /* HomeViewModel.swift */; };
+		DDFF8D322D2DA99C00B42B7C /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D312D2DA99C00B42B7C /* RegisterViewModel.swift */; };
+		DDFF8D362D2DAB1600B42B7C /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D352D2DAB1600B42B7C /* NetworkHandler.swift */; };
+		DDFF8D3C2D2DAE7700B42B7C /* KeyChainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D392D2DAE7700B42B7C /* KeyChainError.swift */; };
+		DDFF8D3D2D2DAE7700B42B7C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D3A2D2DAE7700B42B7C /* NetworkError.swift */; };
+		DDFF8D3E2D2DAE7700B42B7C /* ConfigurationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D372D2DAE7700B42B7C /* ConfigurationError.swift */; };
+		DDFF8D3F2D2DAE7700B42B7C /* FormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D382D2DAE7700B42B7C /* FormError.swift */; };
+		DDFF8D412D2DB27000B42B7C /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D402D2DB27000B42B7C /* NetworkRouter.swift */; };
+		DDFF8D462D2DB2BA00B42B7C /* AccessTokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D442D2DB2BA00B42B7C /* AccessTokenStore.swift */; };
+		DDFF8D472D2DB2BA00B42B7C /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D432D2DB2BA00B42B7C /* AccessToken.swift */; };
+		DDFF8D492D2DB2D700B42B7C /* SecureFetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8D482D2DB2D700B42B7C /* SecureFetchData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD582D6D2D2DC23700D6D0D2 /* AppNanCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNanCoordinatorView.swift; sourceTree = "<group>"; };
+		DD582D6F2D2DC27000D6D0D2 /* AppNanCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNanCoordinator.swift; sourceTree = "<group>"; };
+		DD582D722D2DD8B500D6D0D2 /* Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Async.swift; sourceTree = "<group>"; };
+		DD582D742D2E1B2D00D6D0D2 /*  LoadingContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LoadingContent.swift"; sourceTree = "<group>"; };
+		DDFF8CFE2D2CC97D00B42B7C /* iOS Auth Handeling SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Auth Handeling SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFF8D0F2D2CC9C600B42B7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDFF8D112D2CC9C600B42B7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDFF8D132D2CC9C600B42B7C /* iOSAuthHandelingSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAuthHandelingSwiftUIApp.swift; sourceTree = "<group>"; };
+		DDFF8D1B2D2CCA3300B42B7C /* EmailField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailField.swift; sourceTree = "<group>"; };
+		DDFF8D202D2CCB6300B42B7C /* DefaultTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTextFieldStyle.swift; sourceTree = "<group>"; };
+		DDFF8D222D2CCDEB00B42B7C /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
+		DDFF8D252D2CCE8F00B42B7C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DDFF8D272D2CCFC600B42B7C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		DDFF8D2A2D2CD08500B42B7C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DDFF8D2D2D2DA2FD00B42B7C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DDFF8D2F2D2DA6B200B42B7C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DDFF8D312D2DA99C00B42B7C /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		DDFF8D352D2DAB1600B42B7C /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		DDFF8D372D2DAE7700B42B7C /* ConfigurationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationError.swift; sourceTree = "<group>"; };
+		DDFF8D382D2DAE7700B42B7C /* FormError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormError.swift; sourceTree = "<group>"; };
+		DDFF8D392D2DAE7700B42B7C /* KeyChainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainError.swift; sourceTree = "<group>"; };
+		DDFF8D3A2D2DAE7700B42B7C /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		DDFF8D402D2DB27000B42B7C /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		DDFF8D432D2DB2BA00B42B7C /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
+		DDFF8D442D2DB2BA00B42B7C /* AccessTokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenStore.swift; sourceTree = "<group>"; };
+		DDFF8D482D2DB2D700B42B7C /* SecureFetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFetchData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDFF8CFB2D2CC97D00B42B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD582D6C2D2DC0D400D6D0D2 /* Nav Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				DD582D6D2D2DC23700D6D0D2 /* AppNanCoordinatorView.swift */,
+				DD582D6F2D2DC27000D6D0D2 /* AppNanCoordinator.swift */,
+			);
+			path = "Nav Coordinators";
+			sourceTree = "<group>";
+		};
+		DD582D712D2DD8A800D6D0D2 /* Async */ = {
+			isa = PBXGroup;
+			children = (
+				DD582D722D2DD8B500D6D0D2 /* Async.swift */,
+			);
+			path = Async;
+			sourceTree = "<group>";
+		};
+		DDFF8CF52D2CC97D00B42B7C = {
+			isa = PBXGroup;
+			children = (
+				DDFF8D142D2CC9C600B42B7C /* iOS Auth Handeling SwiftUI */,
+				DDFF8CFF2D2CC97D00B42B7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDFF8CFF2D2CC97D00B42B7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF8CFE2D2CC97D00B42B7C /* iOS Auth Handeling SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDFF8D102D2CC9C600B42B7C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF8D0F2D2CC9C600B42B7C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDFF8D142D2CC9C600B42B7C /* iOS Auth Handeling SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF8D132D2CC9C600B42B7C /* iOSAuthHandelingSwiftUIApp.swift */,
+				DDFF8D112D2CC9C600B42B7C /* Assets.xcassets */,
+				DDFF8D1A2D2CC9E100B42B7C /* Common Views */,
+				DDFF8D3B2D2DAE7700B42B7C /* Errors */,
+				DDFF8D332D2DAAD100B42B7C /* Model Layer */,
+				DD582D6C2D2DC0D400D6D0D2 /* Nav Coordinators */,
+				DDFF8D102D2CC9C600B42B7C /* Preview Content */,
+				DDFF8D192D2CC9CC00B42B7C /* Screens */,
+			);
+			path = "iOS Auth Handeling SwiftUI";
+			sourceTree = "<group>";
+		};
+		DDFF8D192D2CC9CC00B42B7C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF8D242D2CCE7E00B42B7C /* Login */,
+				DDFF8D282D2CCFC600B42B7C /* Register */,
+				DDFF8D2B2D2CD08500B42B7C /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DDFF8D1A2D2CC9E100B42B7C /* Common Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF8D1F2D2CCB2200B42B7C /* TextField Styles */,
+				DDFF8D1B2D2CCA3300B42B7C /* EmailField.swift */,
+				DDFF8D222D2CCDEB00B42B7C /* PasswordField.swift */,
+				DD582D742D2E1B2D00D6D0D2 /*  LoadingContent.swift */,
+			);
+			path = "Common Views";
+			sourceTree = "<group>";
+		};
+		DDFF8D1F2D2CCB2200B42B7C /* TextField Styles */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF8D202D2CCB6300B42B7C /* DefaultTextFieldStyle.swift */,
+			);
+			path = "TextField Styles";
+			sourceTree = "<group>";
+		};
+		DDFF8D242D2CCE7E00B42B7C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF8D252D2CCE8F00B42B7C /* LoginView.swift */,
+				DDFF8D2D2D2DA2FD00B42B7C /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DDFF8D282D2CCFC600B42B7C /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF8D312D2DA99C00B42B7C /* RegisterViewModel.swift */,
+				DDFF8D272D2CCFC600B42B7C /* RegisterView.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		DDFF8D2B2D2CD08500B42B7C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF8D2A2D2CD08500B42B7C /* HomeView.swift */,
+				DDFF8D2F2D2DA6B200B42B7C /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DDFF8D332D2DAAD100B42B7C /* Model Layer */ = {
+			isa = PBXGroup;
+			children = (
+				DD582D712D2DD8A800D6D0D2 /* Async */,
+				DDFF8D342D2DAAF200B42B7C /* Network */,
+				DDFF8D452D2DB2BA00B42B7C /* System */,
+			);
+			path = "Model Layer";
+			sourceTree = "<group>";
+		};
+		DDFF8D342D2DAAF200B42B7C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF8D482D2DB2D700B42B7C /* SecureFetchData.swift */,
+				DDFF8D352D2DAB1600B42B7C /* NetworkHandler.swift */,
+				DDFF8D402D2DB27000B42B7C /* NetworkRouter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DDFF8D3B2D2DAE7700B42B7C /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF8D372D2DAE7700B42B7C /* ConfigurationError.swift */,
+				DDFF8D382D2DAE7700B42B7C /* FormError.swift */,
+				DDFF8D392D2DAE7700B42B7C /* KeyChainError.swift */,
+				DDFF8D3A2D2DAE7700B42B7C /* NetworkError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		DDFF8D452D2DB2BA00B42B7C /* System */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF8D432D2DB2BA00B42B7C /* AccessToken.swift */,
+				DDFF8D442D2DB2BA00B42B7C /* AccessTokenStore.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDFF8CFD2D2CC97D00B42B7C /* iOS Auth Handeling SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFF8D0C2D2CC97F00B42B7C /* Build configuration list for PBXNativeTarget "iOS Auth Handeling SwiftUI" */;
+			buildPhases = (
+				DDFF8CFA2D2CC97D00B42B7C /* Sources */,
+				DDFF8CFB2D2CC97D00B42B7C /* Frameworks */,
+				DDFF8CFC2D2CC97D00B42B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Auth Handeling SwiftUI";
+			packageProductDependencies = (
+			);
+			productName = "iOS Auth Handeling SwiftUI";
+			productReference = DDFF8CFE2D2CC97D00B42B7C /* iOS Auth Handeling SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDFF8CF62D2CC97D00B42B7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DDFF8CFD2D2CC97D00B42B7C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = DDFF8CF92D2CC97D00B42B7C /* Build configuration list for PBXProject "iOS Auth Handeling SwiftUI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDFF8CF52D2CC97D00B42B7C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DDFF8CFF2D2CC97D00B42B7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDFF8CFD2D2CC97D00B42B7C /* iOS Auth Handeling SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDFF8CFC2D2CC97D00B42B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFF8D172D2CC9C600B42B7C /* Preview Assets.xcassets in Resources */,
+				DDFF8D182D2CC9C600B42B7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDFF8CFA2D2CC97D00B42B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFF8D262D2CCE8F00B42B7C /* LoginView.swift in Sources */,
+				DDFF8D412D2DB27000B42B7C /* NetworkRouter.swift in Sources */,
+				DDFF8D322D2DA99C00B42B7C /* RegisterViewModel.swift in Sources */,
+				DDFF8D292D2CCFC600B42B7C /* RegisterView.swift in Sources */,
+				DD582D6E2D2DC23700D6D0D2 /* AppNanCoordinatorView.swift in Sources */,
+				DDFF8D302D2DA6B200B42B7C /* HomeViewModel.swift in Sources */,
+				DDFF8D232D2CCDEB00B42B7C /* PasswordField.swift in Sources */,
+				DDFF8D492D2DB2D700B42B7C /* SecureFetchData.swift in Sources */,
+				DD582D702D2DC27000D6D0D2 /* AppNanCoordinator.swift in Sources */,
+				DDFF8D3C2D2DAE7700B42B7C /* KeyChainError.swift in Sources */,
+				DDFF8D3D2D2DAE7700B42B7C /* NetworkError.swift in Sources */,
+				DDFF8D3E2D2DAE7700B42B7C /* ConfigurationError.swift in Sources */,
+				DDFF8D3F2D2DAE7700B42B7C /* FormError.swift in Sources */,
+				DD582D752D2E1B2D00D6D0D2 /*  LoadingContent.swift in Sources */,
+				DD582D732D2DD8B500D6D0D2 /* Async.swift in Sources */,
+				DDFF8D212D2CCB6300B42B7C /* DefaultTextFieldStyle.swift in Sources */,
+				DDFF8D462D2DB2BA00B42B7C /* AccessTokenStore.swift in Sources */,
+				DDFF8D472D2DB2BA00B42B7C /* AccessToken.swift in Sources */,
+				DDFF8D2C2D2CD08500B42B7C /* HomeView.swift in Sources */,
+				DDFF8D1C2D2CCA3300B42B7C /* EmailField.swift in Sources */,
+				DDFF8D162D2CC9C600B42B7C /* iOSAuthHandelingSwiftUIApp.swift in Sources */,
+				DDFF8D2E2D2DA2FD00B42B7C /* LoginViewModel.swift in Sources */,
+				DDFF8D362D2DAB1600B42B7C /* NetworkHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDFF8D0A2D2CC97F00B42B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDFF8D0B2D2CC97F00B42B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDFF8D0D2D2CC97F00B42B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Auth Handeling SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.iOS-Auth-Handeling-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDFF8D0E2D2CC97F00B42B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Auth Handeling SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.iOS-Auth-Handeling-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDFF8CF92D2CC97D00B42B7C /* Build configuration list for PBXProject "iOS Auth Handeling SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFF8D0A2D2CC97F00B42B7C /* Debug */,
+				DDFF8D0B2D2CC97F00B42B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFF8D0C2D2CC97F00B42B7C /* Build configuration list for PBXNativeTarget "iOS Auth Handeling SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFF8D0D2D2CC97F00B42B7C /* Debug */,
+				DDFF8D0E2D2CC97F00B42B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDFF8CF62D2CC97D00B42B7C /* Project object */;
+}
